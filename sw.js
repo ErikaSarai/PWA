@@ -1,8 +1,10 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_pato_restaurant',
+const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
-    './',
+    '/',
+    'css/main.css',
+    'css/util.css',
     'vendor/bootstrap/css/bootstrap.min.css',
     'fonts/font-awesome-4.7.0/css/font-awesome.min.css',
     'fonts/themify/themify-icons.css',
@@ -13,8 +15,8 @@ const CACHE_NAME = 'v1_cache_pato_restaurant',
     'vendor/daterangepicker/daterangepicker.css',
     'vendor/slick/slick.css',
     'vendor/lightbox2/css/lightbox.min.css',
-    'css/main.css',
-    'css/util.css',
+    'js/main.js',
+    'js/script.js',
     'vendor/jquery/jquery-3.2.1.min.js',
     'vendor/animsition/js/animsition.min.js',
     'vendor/bootstrap/js/popper.js',
@@ -27,9 +29,7 @@ const CACHE_NAME = 'v1_cache_pato_restaurant',
     'vendor/parallax100/parallax100.js',
     'vendor/countdowntime/countdowntime.js',
     'vendor/lightbox2/js/lightbox.min.js',
-    'js/main.js',
-    'js/script.js',
-    'images/icons/favicon.png'
+    'images/icons/favicon.png',
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
